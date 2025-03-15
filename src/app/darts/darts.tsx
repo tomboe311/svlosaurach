@@ -2,7 +2,7 @@
 
 import React from "react";
 import {Typography} from "@material-tailwind/react";
-import {Trainingszeiten} from "@/app/darts/trainingszeiten";
+import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
 
 const TRAINER = [
@@ -20,7 +20,18 @@ const TRAINER = [
         mail: "",
         phone: "+49 172 5413841",
     },
-]
+];
+
+const TRAININGSZEITEN = [
+    {
+        team: "Dart",
+        montag: "",
+        dienstag: "",
+        mittwoch: "ab 18:00 Uhr",
+        donnerstag: "",
+        freitag: "",
+    },
+];
 
 function Darts() {
     return (
@@ -91,7 +102,7 @@ function Darts() {
                 <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
                     Trainingszeiten
                 </Typography>
-                <Trainingszeiten/>
+                <Trainingszeiten rows={TRAININGSZEITEN}/>
                 <Typography variant="small" color="blue-gray" className="my-4">
                     Trainingsort: Sportheim Saal Losaurach
                 </Typography>
