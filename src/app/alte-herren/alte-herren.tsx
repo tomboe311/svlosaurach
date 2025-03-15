@@ -37,6 +37,11 @@ function AlteHerren() {
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
                     Unsere Alten Herren sind ehemalige Leistungsträger der Herrenmannschaft. Mit viel Spaß und Freude sind sie weiterhin aktiv und spielen regelmäßig Fußball.
                 </Typography>
+                <img
+                    className="min-h-full w-full rounded-lg object-cover object-center"
+                    src="/teams/alte-herren.jpeg"
+                    alt="Alte Herren Mannschaftsbild"
+                />
             </div>
             <div className="container mx-auto">
                 <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">

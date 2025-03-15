@@ -83,7 +83,7 @@ function Herren() {
                 </Typography>
                 <img
                     className="min-h-full w-full rounded-lg object-cover object-center"
-                    src="/teams/herren-2022.jpeg"
+                    src="/teams/herren-2024.jpeg"
                     alt="Herrenmannschaft"
                 />
             </div>

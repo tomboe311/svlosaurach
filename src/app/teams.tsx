@@ -5,7 +5,7 @@ import {Typography} from "@material-tailwind/react";
 
 const TEAMS = [
     {
-        img: "/teams/herren-2022.jpeg",
+        img: "/teams/herren-2024.jpeg",
         title: "1. & 2. Herrenmannschaft",
         desc: "Herrenmannschaften",
         link: "/herren",
@@ -17,13 +17,13 @@ const TEAMS = [
         link: "/frauen",
     },
     {
-        img: "/teams/herren-2022.jpeg",
+        img: "/teams/a-jugend-2023-2024.jpeg",
         title: "Jugendmannschaften",
         desc: "Jugendmannschaften",
         link: "/jugend",
     },
     {
-        img: "/teams/herren-2022.jpeg",
+        img: "/teams/alte-herren.jpeg",
         title: "Alte Herren",
         desc: "Unsere Alten Herren",
         link: "/alte-herren",
