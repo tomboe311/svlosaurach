@@ -29,9 +29,9 @@ const navListMenuItems = [
         icon: UserGroupIcon,
     },
     {
-        title: "Damen",
-        href: "/damen",
-        description: "Unsere Damenmannschaften",
+        title: "Frauen",
+        href: "/frauen",
+        description: "Unsere Frauenmannschaften",
         icon: UserGroupIcon,
     },
     {

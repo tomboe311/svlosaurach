@@ -11,10 +11,10 @@ const TEAMS = [
         link: "/herren",
     },
     {
-        img: "/teams/damen-2-2024-2025.jpeg",
-        title: "1. & 2. Damenmannschaft",
-        desc: "Damenmannschaften",
-        link: "/damen",
+        img: "/teams/frauen-2-2024-2025.jpeg",
+        title: "1. & 2. Frauenmannschaft",
+        desc: "Frauenmannschaften",
+        link: "/frauen",
     },
     {
         img: "/teams/herren-2022.jpeg",
@@ -45,7 +45,7 @@ export function Teams() {
                     className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-12/12"
                 >
                     Im Sportverein Losaurach sind wir stolz auf unsere dynamischen Mannschaften und ihre
-                    kontinuierlichen Erfolge. Mit insgesamt zwei Herren-, zwei Damen- und elf Jugendmannschaften bieten wir ein
+                    kontinuierlichen Erfolge. Mit insgesamt zwei Herren-, zwei Frauen- und elf Jugendmannschaften bieten wir ein
                     breites Spektrum an Möglichkeiten für alle Altersgruppen, um aktiv zu werden und sich sportlich zu
                     entfalten.
                 </Typography>

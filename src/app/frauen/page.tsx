@@ -1,14 +1,14 @@
 // components
 import {Footer, NavbarWithMegaMenu} from "@/components";
-import Damen from "@/app/damen/damen";
+import Frauen from "@/app/frauen/frauen";
 
 // sections
 
-export default function DamenPage() {
+export default function FrauenPage() {
     return (
         <div>
             <NavbarWithMegaMenu/>
-            <Damen/>
+            <Frauen/>
             <Footer/>
         </div>
     );

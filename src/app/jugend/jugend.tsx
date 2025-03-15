@@ -273,7 +273,7 @@ function Jugend() {
                 </Typography>
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
                     Mit insgesamt elf Jugendmannschaften, davon fünf Mannschaften in einer Spielgemeinschaft mit dem TSV Markt Erlbach,
-                    bilden wir wichtige Basis für die Zukunft unserer Herren- und Damenmannschaften. Ganz besonders stolz sind wir auch
+                    bilden wir wichtige Basis für die Zukunft unserer Herren- und Frauenmannschaften. Ganz besonders stolz sind wir auch
                     auf unsere beiden Mädchenmannschaften der Altersklassen U17 und U11.
                 </Typography>
             </div>

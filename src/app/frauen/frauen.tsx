@@ -2,21 +2,21 @@
 
 import React from "react";
 import {Typography} from "@material-tailwind/react";
-import {Trainingszeiten} from "@/app/damen/trainingszeiten";
+import {Trainingszeiten} from "@/app/frauen/trainingszeiten";
 import {ProfileCard} from "@/components";
 
 const TRAINER = [
     {
         img: "",
         name: "Christian Popp",
-        section: "Trainer 1. Damenmannschaft",
+        section: "Trainer 1. Frauenmannschaft",
         mail: "",
         phone: "+49 (0) 1520 8726937",
     },
     {
         img: "",
         name: "Franziska Clemens",
-        section: "Trainerin 2. Damenmannschaft",
+        section: "Trainerin 2. Frauenmannschaft",
         mail: "",
         phone: "+49 (0) 1525 6158385",
     },
@@ -37,20 +37,20 @@ const TRAINER = [
     {
         img: "",
         name: "Manfred Meyer",
-        section: "Trainerassistent 2. Damenmannschaft",
+        section: "Trainerassistent 2. Frauenmannschaft",
         mail: "",
         phone: "+49 (0) 175 1655724",
     },
     {
         img: "",
         name: "Susanne Strohmaier",
-        section: "Spielleiterin Damen",
+        section: "Spielleiterin Frauen",
         mail: "",
         phone: "+49 (0) 170 7688000",
     },
 ]
 
-function Damen() {
+function Frauen() {
     return (
 
         <header className="bg-white p-8">
@@ -60,19 +60,19 @@ function Damen() {
                     color="blue-gray"
                     className="mb-4 lg:text-5xl !leading-tight text-3xl"
                 >
-                    Damenmannschaften
+                    Frauenmannschaften
                 </Typography>
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
-                    Die Damenmannschaften sind seit vielen Jahren ein fester Bestandteil des SV Losaurach.
-                    Der Verein stellt zwei Teams im aktiven Ligabetrieb. Die 1. Damenmannschaft tritt eigenständig für
-                    den SV Losaurach an, während die 2. Damenmannschaft als Spielgemeinschaft mit dem TSV Wilhermsdorf
+                    Die Frauenmannschaften sind seit vielen Jahren ein fester Bestandteil des SV Losaurach.
+                    Der Verein stellt zwei Teams im aktiven Ligabetrieb. Die 1. Frauenmannschaft tritt eigenständig für
+                    den SV Losaurach an, während die 2. Frauenmannschaft als Spielgemeinschaft mit dem TSV Wilhermsdorf
                     agiert. Auf diese Weise wird Frauen ab 16 Jahren ein breites Spektrum an Möglichkeiten geboten, sich
                     sportlich zu engagieren und weiterzuentwickeln.
                 </Typography>
                 <img
                     className="min-h-full w-full rounded-lg object-cover object-center"
-                    src="/teams/damen-1-2024-2025.jpeg"
-                    alt="Damenmannschaft"
+                    src="/teams/frauen-1-2024-2025.jpeg"
+                    alt="Frauenmannschaft"
                 />
             </div>
             <div className="container mx-auto">
@@ -102,4 +102,4 @@ function Damen() {
     );
 }
 
-export default Damen;
+export default Frauen;
