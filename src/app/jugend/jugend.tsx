@@ -2,7 +2,7 @@
 
 import React from "react";
 import {Typography} from "@material-tailwind/react";
-import {Trainingszeiten} from "@/app/jugend/trainingszeiten";
+import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 
 const TRAINER = {
     "U17 (SG) B-Jugend": [
@@ -260,6 +260,73 @@ const TRAINER = {
     ],
 }
 
+const TRAININGSZEITEN = [
+    {
+        team: "U17/U16 (B-Junioren)",
+        montag: "18:30 - 20:00 Uhr (Sportplatz Losaurach)",
+        dienstag: "",
+        mittwoch: "",
+        donnerstag: "18:30 - 20:00 Uhr (Sportplatz Markt Erlbach)",
+        freitag: "",
+    },
+    {
+        team: "U15/U14 (C1/C2-Junioren)",
+        montag: "17:00 - 19:00 Uhr (Sportplatz Markt Erlbach)",
+        dienstag: "",
+        mittwoch: "17:00 - 19:00 Uhr (Sportplatz Markt Erlbach)",
+        donnerstag: "",
+        freitag: "",
+    },
+    {
+        team: "U13/U12 (D1/D2-Junioren)",
+        montag: "17:30 - 19:00 Uhr (Sportplatz Markt Erlbach)",
+        dienstag: "",
+        mittwoch: "17:30 - 19:00 Uhr (Sportplatz Markt Erlbach)",
+        donnerstag: "",
+        freitag: "",
+    },
+    {
+        team: "U11/U10 (E1/E2-Junioren)",
+        montag: "",
+        dienstag: "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+        mittwoch: "",
+        donnerstag: "",
+        freitag: "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+    },
+    {
+        team: "U9/U8 (F-Junioren)",
+        montag: "",
+        dienstag: "",
+        mittwoch: "17:15 - 18:45 Uhr (Sportplatz Losaurach)",
+        donnerstag: "",
+        freitag: "",
+    },
+    {
+        team: "U7 (G-Junioren)",
+        montag: "",
+        dienstag: "",
+        mittwoch: "17:30 - 18:30 Uhr (Sportplatz Losaurach)",
+        donnerstag: "",
+        freitag: "",
+    },
+    {
+        team: "U17/U16 (B-Juniorinnen)",
+        montag: "",
+        dienstag: "17:30 - 19:00 Uhr (Sportplatz Losaurach)",
+        mittwoch: "",
+        donnerstag: "17:30 - 19:00 Uhr (Sportplatz Losaurach)",
+        freitag: "",
+    },
+    {
+        team: "U11/U10 (E-Juniorinnen)",
+        montag: "",
+        dienstag: "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+        mittwoch: "",
+        donnerstag: "",
+        freitag: "",
+    },
+];
+
 function Jugend() {
     return (
         <header className="bg-white p-8">
@@ -322,7 +389,7 @@ function Jugend() {
                 <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
                     Trainingszeiten
                 </Typography>
-                <Trainingszeiten/>
+                <Trainingszeiten rows={TRAININGSZEITEN}/>
             </div>
         </header>
     );

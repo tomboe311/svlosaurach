@@ -2,7 +2,7 @@
 
 import React from "react";
 import {Typography} from "@material-tailwind/react";
-import {Trainingszeiten} from "@/app/frauen/trainingszeiten";
+import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
 
 const TRAINER = [
@@ -48,7 +48,26 @@ const TRAINER = [
         mail: "",
         phone: "+49 (0) 170 7688000",
     },
-]
+];
+
+const TRAININGSZEITEN = [
+    {
+        team: "Frauen 1",
+        montag: "",
+        dienstag: "19:00 - 20:00 Uhr",
+        mittwoch: "",
+        donnerstag: "19:00 - 20:00 Uhr",
+        freitag: "",
+    },
+    {
+        team: "Frauen 2",
+        montag: "",
+        dienstag: "19:00 - 20:00 Uhr",
+        mittwoch: "",
+        donnerstag: "19:00 - 20:00 Uhr",
+        freitag: "",
+    },
+];
 
 function Frauen() {
     return (
@@ -90,7 +109,7 @@ function Frauen() {
                 <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
                     Trainingszeiten
                 </Typography>
-                <Trainingszeiten/>
+                <Trainingszeiten rows={TRAININGSZEITEN}/>
                 <Typography variant="small" color="blue-gray" className="my-4">
                     Trainingsort: Sportplatz Losaurach
                 </Typography>
