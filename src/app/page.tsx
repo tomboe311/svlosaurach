@@ -8,6 +8,7 @@ import Sections from "./sections";
 import Teams from "./teams";
 import Verein from "@/app/verein";
 import Address from "@/app/address";
+import Sportheim from "@/app/sportheim";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
             <Teams/>
             <Sections/>
             <Sponsors/>
+            <Sportheim/>
             <Address/>
             <Footer/>
         </>
