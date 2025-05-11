@@ -17,7 +17,7 @@ const TEAMS = [
         link: "/frauen",
     },
     {
-        img: "/teams/a-jugend-2023-2024.jpeg",
+        img: "/teams/sv-losaurach-jugend.jpeg",
         title: "Jugendmannschaften",
         desc: "Jugendmannschaften",
         link: "/jugend",
