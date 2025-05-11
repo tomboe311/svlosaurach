@@ -22,13 +22,6 @@ const TRAINER = [
     },
     {
         img: "",
-        name: "Stefan Maier",
-        section: "Torwarttrainer",
-        mail: "",
-        phone: "+49 (0) 1511 7684369",
-    },
-    {
-        img: "",
         name: "Nick Salzer",
         section: "Torwarttrainer",
         mail: "",
