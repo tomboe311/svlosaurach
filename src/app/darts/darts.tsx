@@ -86,6 +86,11 @@ function Darts() {
                     Egal, ob ihr schon Erfahrung habt oder absolute Anfänger seid: Bei uns ist jeder
                     willkommen!
                 </Typography>
+                <img
+                    className="min-h-full w-full rounded-lg object-cover object-center"
+                    src="/teams/sv-losaurach-dart.jpeg"
+                    alt="Herrenmannschaft"
+                />
             </div>
             <div className="container mx-auto">
                 <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
