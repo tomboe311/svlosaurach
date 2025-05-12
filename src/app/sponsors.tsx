@@ -5,7 +5,6 @@ import {Typography} from "@material-tailwind/react";
 
 const SPONSORS = [
     "boehringer-it",
-    "hofmann",
 ];
 
 export function Sponsors() {
