@@ -248,14 +248,19 @@ export function NavbarWithMegaMenu() {
                 <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
                     <NavList/>
                     <div className="mt-6 mb-4 flex items-center gap-2">
-                        <a href="https://www.instagram.com/sv_losaurach_1972" target="_blank">
+                        <a href="https://www.instagram.com/sv_losaurach_1972" target="_blank" title="Instagram Seite">
                             <IconButton variant="text">
                                 <i className="fa-brands fa-instagram text-lg"/>
                             </IconButton>
                         </a>
-                        <a href="https://www.facebook.com/SVLosaurach1972" target="_blank">
+                        <a href="https://www.facebook.com/SVLosaurach1972" target="_blank" title="Facebook Seite">
                             <IconButton variant="text">
                                 <i className="fa-brands fa-facebook text-lg"/>
+                            </IconButton>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Vb5nKoeBvvsXDaQm4G2w" target="_blank" title="WhatsApp Kanal">
+                            <IconButton variant="text">
+                                <i className="fa-brands fa-whatsapp text-lg"/>
                             </IconButton>
                         </a>
                     </div>
