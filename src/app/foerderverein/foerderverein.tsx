@@ -82,7 +82,7 @@ function Foerderverein() {
 
                     Aktuell sind 110 Mitglieder im Förderverein Oberer Aurachgrund, bei denen wir uns für Ihre Unterstützung recht herzlich bedanken möchten.
                 </Typography>
-                <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
+                <Typography variant="h3" color="blue-gray" className="mb-4 uppercase">
                     Mitglied werden
                 </Typography>
                 <Typography variant="paragraph" className="mb-4 md:pr-16 xl:pr-28">
@@ -98,7 +98,7 @@ function Foerderverein() {
 
             </div>
             <div className="container mx-auto">
-                <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
+                <Typography variant="h3" color="blue-gray" className="mb-4 uppercase">
                     Vorstandschaft
                 </Typography>
                 <div

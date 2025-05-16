@@ -47,11 +47,11 @@ function Darts() {
                 </Typography>
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
                     Am 25.03.2023 wurde auf der Jahreshauptversammlung des SV Losaurach e.V. die Abteilung
-                    Dart neu gegründet. Mittlerweile zählen über 70 begeisterte Mitglieder zu den „Dartern“.
+                    Dart neu gegründet. Mittlerweile zählen über 70 begeisterte Mitglieder zu den "Dartern".
                     Sebastian Klein leitet die Abteilung, während Christian Böhm als Kapitän die Mannschaft führt.
                 </Typography>
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
-                    Derzeit nimmt eine Mannschaft aktiv am Spielbetrieb teil: „Los Dartos“. In der ersten Saison 2024
+                    Derzeit nimmt eine Mannschaft aktiv am Spielbetrieb teil: "Los Dartos". In der ersten Saison 2024
                     konnte das Team mit einer beeindruckenden Leistung den vierten Platz in der B-Klasse 7
                     (Nürnberg/Fürth) erreichen und somit die Klasse halten.
                 </Typography>
@@ -62,7 +62,7 @@ function Darts() {
                 </Typography>
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
                     Die Idee zur Gründung einer eigenen Abteilung Dart entstand bereits vor vielen Jahren, als
-                    noch im Losauracher „Hüttla“ gespickert wurde. Der Gedanke wurde durch unser LA-Dart
+                    noch im Losauracher "Hüttla" gespickert wurde. Der Gedanke wurde durch unser LA-Dart
                     Champion Turnier weitergetragen, das jährlich im Februar stattfindet. Dieses Turnier gehört
                     zu den größten Events des Sportvereins. Um die 60 Teilnehmer treten auf fünf Scheiben im
                     Schützenkeller gegeneinander an, um schließlich einen Sieger zu küren. Dabei stehen vor allem
@@ -86,7 +86,7 @@ function Darts() {
                 />
             </div>
             <div className="container mx-auto">
-                <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
+                <Typography variant="h3" color="blue-gray" className="mb-4 uppercase">
                     Abteilungsleitung
                 </Typography>
                 <div
@@ -97,7 +97,7 @@ function Darts() {
                 </div>
             </div>
             <div className="container mx-auto h-full gap-10 w-full items-start">
-                <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
+                <Typography variant="h3" color="blue-gray" className="mb-4 uppercase">
                     Trainingszeiten
                 </Typography>
                 <Trainingszeiten rows={TRAININGSZEITEN}/>

@@ -221,7 +221,7 @@ function Verein() {
                 </Carousel>
             </div>
             <div className="container mx-auto">
-                <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
+                <Typography variant="h3" color="blue-gray" className="mb-4 uppercase">
                     Vorstandschaft
                 </Typography>
                 <div
