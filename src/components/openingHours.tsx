@@ -9,7 +9,7 @@ interface OpeningHoursProps {
     }>;
 }
 
-function OpeningHours({ days }: OpeningHoursProps) {
+function DesktopView({ days }: OpeningHoursProps) {
     return (
         <div className="grid grid-cols-[150px_1fr] gap-5">
             {days.map(({ day, hours, notice }) => (
@@ -28,6 +28,41 @@ function OpeningHours({ days }: OpeningHoursProps) {
                 </React.Fragment>
             ))}
         </div>
+    );
+}
+
+function MobileView({ days }: OpeningHoursProps) {
+    return (
+        <div className="flex flex-col gap-4">
+            {days.map(({ day, hours, notice }) => (
+                <div key={day} className="border-b border-black/10 pb-4 last:border-b-0">
+                    <Typography variant="h6" color="black" className="mb-1">
+                        {day}
+                    </Typography>
+                    <Typography variant="paragraph" color="black">
+                        {hours}
+                    </Typography>
+                    {notice && (
+                        <Typography variant="small" className="text-gray-900">
+                            {notice}
+                        </Typography>
+                    )}
+                </div>
+            ))}
+        </div>
+    );
+}
+
+function OpeningHours({ days }: OpeningHoursProps) {
+    return (
+        <>
+            <div className="hidden md:block">
+                <DesktopView days={days} />
+            </div>
+            <div className="md:hidden">
+                <MobileView days={days} />
+            </div>
+        </>
     );
 }
 
