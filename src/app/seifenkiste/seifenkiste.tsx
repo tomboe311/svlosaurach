@@ -24,7 +24,7 @@ function Seifenkiste() {
                     Wer mehr über unsere Aktivitäten erfahren möchte, kann sich gerne mit unserem Abteilungsleiter Sebastian Strohmaier in Verbindung setzen.
                 </Typography>
                 <div className="container mx-auto">
-                    <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
+                    <Typography variant="h3" color="blue-gray" className="mb-4 uppercase">
                         Abteilungsleiter
                     </Typography>
                     <div
@@ -33,7 +33,7 @@ function Seifenkiste() {
                     </div>
                 </div>
                 <div className="container mx-auto">
-                    <Typography variant="h2" color="blue-gray" className="mb-4 uppercase">
+                    <Typography variant="h3" color="blue-gray" className="mb-4 uppercase">
                         Bisherige Erfolge
                     </Typography>
                     <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
