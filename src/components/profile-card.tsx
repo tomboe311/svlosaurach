@@ -17,7 +17,7 @@ interface ProfileCardProps {
 
 export function ProfileCard({img, name, section, mail, phone}: ProfileCardProps) {
     return (
-        <Card className="w-96">
+        <Card className="w-full max-w-[384px] mx-auto">
             <CardHeader floated={false} className="h-auto">
                 {img &&( <img src={img} alt="profile-picture" />)}
             </CardHeader>
