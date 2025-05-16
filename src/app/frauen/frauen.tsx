@@ -47,17 +47,17 @@ const TRAININGSZEITEN = [
     {
         team: "Frauen 1",
         montag: "",
-        dienstag: "19:00 - 20:00 Uhr",
+        dienstag: "19:00 - 20:30 Uhr",
         mittwoch: "",
-        donnerstag: "19:00 - 20:00 Uhr",
+        donnerstag: "19:00 - 20:30 Uhr",
         freitag: "",
     },
     {
         team: "Frauen 2",
         montag: "",
-        dienstag: "19:00 - 20:00 Uhr",
+        dienstag: "19:00 - 20:30 Uhr",
         mittwoch: "",
-        donnerstag: "19:00 - 20:00 Uhr",
+        donnerstag: "19:00 - 20:30 Uhr",
         freitag: "",
     },
 ];

@@ -263,7 +263,7 @@ const TRAINER = {
 const TRAININGSZEITEN = [
     {
         team: "U17/U16 (B-Junioren)",
-        montag: "18:30 - 20:00 Uhr (Sportplatz Losaurach)",
+        montag: "19:00 - 20:30 Uhr (Sportplatz Losaurach)",
         dienstag: "",
         mittwoch: "",
         donnerstag: "18:30 - 20:00 Uhr (Sportplatz Markt Erlbach)",
