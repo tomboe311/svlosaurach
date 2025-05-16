@@ -2,7 +2,7 @@
 
 import React from "react";
 import {Typography} from "@material-tailwind/react";
-import {ProfileCard, TeamCard} from "@/components";
+import {ProfileCard} from "@/components";
 
 function Seifenkiste() {
     return (
@@ -27,8 +27,7 @@ function Seifenkiste() {
                     <Typography variant="h3" color="blue-gray" className="mb-4 uppercase">
                         Abteilungsleiter
                     </Typography>
-                    <div
-                        className="container mx-auto grid h-full gap-10 w-full grid-cols-1 items-start 2xl:grid-cols-3 lg:grid-cols-2 mb-20">
+                    <div className="container mx-auto grid h-full gap-10 w-full grid-cols-1 items-start 2xl:grid-cols-3 lg:grid-cols-2 mb-20">
                         <ProfileCard img={""} name={"Sebastian Strohmaier"} section={"Abteilungsleiter Seifenkiste"} mail={""} phone={"+49 1516 4736110"} />
                     </div>
                 </div>
