@@ -116,7 +116,7 @@ const VORSTANDSCHAFT = [
         name: "Dominik Tuleweit",
         section: "Jugendleiter",
         mail: "",
-        phone: "+49 173 8800888",
+        phone: "",
     },
     {
         img: "",
