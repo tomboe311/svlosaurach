@@ -5,13 +5,13 @@ import {Typography} from "@material-tailwind/react";
 
 const TEAMS = [
     {
-        img: "/teams/herren-2024.jpeg",
+        img: "/teams/herren-2025.jpeg",
         title: "1. & 2. Herrenmannschaft",
         desc: "Herrenmannschaften",
         link: "/herren",
     },
     {
-        img: "/teams/frauen-2-2024-2025.jpeg",
+        img: "/teams/frauen-2025.jpeg",
         title: "1. & 2. Frauenmannschaft",
         desc: "Frauenmannschaften",
         link: "/frauen",

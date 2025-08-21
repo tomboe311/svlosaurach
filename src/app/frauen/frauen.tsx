@@ -83,7 +83,7 @@ function Frauen() {
                 </Typography>
                 <img
                     className="min-h-full w-full rounded-lg object-cover object-center"
-                    src="/teams/frauen-1-2024-2025.jpeg"
+                    src="/teams/frauen-2025.jpeg"
                     alt="Frauenmannschaft"
                 />
             </div>
