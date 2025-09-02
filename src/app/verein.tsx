@@ -1,6 +1,6 @@
 "use client";
 
-import {Typography, Button, List, ListItem, Carousel} from "@material-tailwind/react";
+import {Typography, Button, Carousel} from "@material-tailwind/react";
 import Link from "next/link";
 import {
     UserGroupIcon,
@@ -23,7 +23,7 @@ const VEREIN_ITEMS = [
     },
     {
         icon: UserGroupIcon,
-        children: "650 Mitglieder",
+        children: "700 Mitglieder",
     },
     {
         icon: FireIcon,
@@ -31,7 +31,7 @@ const VEREIN_ITEMS = [
     },
     {
         icon: GlobeAltIcon,
-        children: "16 Fußballteams",
+        children: "19 Fußballteams",
     }
 ];
 

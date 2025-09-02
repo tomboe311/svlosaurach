@@ -45,7 +45,7 @@ export function Teams() {
                     className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-12/12"
                 >
                     Im Sportverein Losaurach sind wir stolz auf unsere dynamischen Mannschaften und ihre
-                    kontinuierlichen Erfolge. Mit insgesamt zwei Herren-, zwei Frauen- und elf Jugendmannschaften bieten wir ein
+                    kontinuierlichen Erfolge. Mit einer Senioren-, zwei Herren-, zwei Frauen- und 19 Jugendmannschaften bieten wir ein
                     breites Spektrum an Möglichkeiten für alle Altersgruppen, um aktiv zu werden und sich sportlich zu
                     entfalten.
                 </Typography>

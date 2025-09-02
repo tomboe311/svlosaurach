@@ -174,7 +174,7 @@ function Verein() {
                     Verein
                 </Typography>
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
-                    Der SV Losaurach wurde 1972 gegründet und entwickelte sich von zwei Fußballmannschaften zu einem vielseitigen Sportverein mit aktuell über 650 Mitgliedern – mehr als das Vierfache der Einwohnerzahl. Neben Fußball kamen im Laufe der Jahre Tennis, Schützen, Seifenkiste und Dart als Abteilungen hinzu. Große Meilensteine waren der Bau des Sportheims, die Gründung einer Frauenmannschaft sowie die erfolgreiche Spielgemeinschaft im Jugendfußball. Trotz Herausforderungen, wie dem gesellschaftlichen Wandel und der Pandemie, wächst der Verein stetig weiter und bleibt ein fester Bestandteil des regionalen Sportlebens.
+                    Der SV Losaurach wurde 1972 gegründet und entwickelte sich von zwei Fußballmannschaften zu einem vielseitigen Sportverein mit aktuell über 700 Mitgliedern – mehr als das Fünffache der Einwohnerzahl. Neben Fußball kamen im Laufe der Jahre Tennis, Schützen, Seifenkiste und Dart als Abteilungen hinzu. Große Meilensteine waren der Bau des Sportheims, die Gründung einer Frauenmannschaft sowie die erfolgreiche Spielgemeinschaft im Jugendfußball. Trotz Herausforderungen, wie dem gesellschaftlichen Wandel und der Pandemie, wächst der Verein stetig weiter und bleibt ein fester Bestandteil des regionalen Sportlebens.
                 </Typography>
                 <Typography variant="small" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
                     Unser Heimat ist das Sportheim, unser Stolz der SVL!
