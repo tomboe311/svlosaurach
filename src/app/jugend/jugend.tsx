@@ -165,13 +165,6 @@ const TRAINER = {
         },
         {
             team: "F2-Jugend",
-            name: "Steffen Endner",
-            section: "Trainer",
-            mail: "",
-            phone: "+49 172 5237145",
-        },
-        {
-            team: "F2-Jugend",
             name: "Philipp Seibold",
             section: "Trainer",
             mail: "",
@@ -180,11 +173,11 @@ const TRAINER = {
     ],
     "U9 F3-Jugend": [
         {
-            team: "F1-Jugend",
-            name: "Andreas Schönleben",
+            team: "F3-Jugend",
+            name: "Steffen Endner",
             section: "Trainer",
             mail: "",
-            phone: "+49 179 3624394",
+            phone: "+49 172 5237145",
         },
     ],
     "U7 G-Jugend": [
