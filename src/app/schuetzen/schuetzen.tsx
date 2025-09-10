@@ -4,44 +4,11 @@ import React from "react";
 import {Typography} from "@material-tailwind/react";
 import {ProfileCard} from "@/components";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
+import SCHUETZEN_DATA from "@/data/schuetzen.json";
 
-const TRAINER = [
-    {
-        img: "",
-        name: "Christian Mederer",
-        section: "Schützenmeister",
-        mail: "",
-        phone: "+49 173 1928863",
-    },
-];
-
-const TRAININGSZEITEN = [
-    {
-        team: "Jugend (Lichtgewehr)",
-        montag: "",
-        dienstag: "18:00 Uhr",
-        mittwoch: "",
-        donnerstag: "",
-        freitag: "",
-    },
-    {
-        team: "Jugend (Lichtgewehr)",
-        montag: "",
-        dienstag: "(alle 2 Wochen) 16:30 Uhr",
-        mittwoch: "",
-        donnerstag: "",
-        freitag: "",
-    },
-    {
-        team: "Erwachsene (Luftgewehr & Luftpistole)",
-        montag: "",
-        dienstag: "",
-        mittwoch: "19:00 Uhr",
-        donnerstag: "",
-        freitag: "",
-    },
-];
 function Schuetzen() {
+    const TRAINER = SCHUETZEN_DATA.trainer;
+    const TRAININGSZEITEN = SCHUETZEN_DATA.trainingszeiten;
     return (
         <header className="bg-white p-8">
             <div className="container mx-auto mb-20">

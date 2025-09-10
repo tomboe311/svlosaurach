@@ -1,0 +1,29 @@
+{
+  "trainer": [
+    {
+      "img": "",
+      "name": "Markus Thomas",
+      "section": "Trainer Alte Herren",
+      "mail": "",
+      "phone": "+49 (0) 1522 7005954"
+    },
+    {
+      "img": "",
+      "name": "Helmut Hofmockel",
+      "section": "Spielleiter Alte Herren",
+      "mail": "",
+      "phone": "+49 (0) 172 8563666"
+    }
+  ],
+  "trainingszeiten": [
+    {
+      "team": "Alte Herren",
+      "montag": "",
+      "dienstag": "",
+      "mittwoch": "19:00 - 20:30 Uhr",
+      "donnerstag": "",
+      "freitag": ""
+    }
+  ]
+}
+

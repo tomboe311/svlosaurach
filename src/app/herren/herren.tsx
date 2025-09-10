@@ -4,86 +4,11 @@ import React from "react";
 import {Typography} from "@material-tailwind/react";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
-
-const TRAINER = [
-    {
-        img: "",
-        name: "Jonas Scheuenstuhl",
-        section: "Trainer 1. Herrenmannschaft",
-        mail: "",
-        phone: "+49 (0) 151 18054220",
-    },
-    {
-        img: "",
-        name: "Niklas Stahringer",
-        section: "Spielleiter 1. Herrenmannschaft",
-        mail: "",
-        phone: "+49 (0) 178 2873224",
-    },
-    {
-        img: "",
-        name: "Marco Weber",
-        section: "Trainer 2. Herrenmannschaft",
-        mail: "",
-        phone: "+49 (0) 151 18054220",
-    },
-    {
-        img: "",
-        name: "Henric Raab",
-        section: "Trainerassistent/Betreuer",
-        mail: "",
-        phone: "+49 (0) 174 9175951",
-    },
-    {
-        img: "",
-        name: "Christian König",
-        section: "Trainerassistent/Betreuer",
-        mail: "",
-        phone: "+49 (0) 178 2873224",
-    },
-    {
-        img: "",
-        name: "Norbert Scheuenstuhl",
-        section: "Torwarttrainer Herrenmannschaften",
-        mail: "",
-        phone: "+49 (0) 160 5846098",
-    },
-    {
-        img: "",
-        name: "Jonas Ruppe",
-        section: "Medizinische Betreuung",
-        mail: "",
-        phone: "+49 (0) 1512 9121998",
-    },
-    {
-        img: "",
-        name: "Rene Hofmockel",
-        section: "Fotograf",
-        mail: "",
-        phone: "+49 (0) 176 61042669",
-    },
-];
-
-const TRAININGSZEITEN = [
-    {
-        team: "Herren 1",
-        montag: "",
-        dienstag: "19:00 - 20:30 Uhr",
-        mittwoch: "",
-        donnerstag: "19:00 - 20:30 Uhr",
-        freitag: "",
-    },
-    {
-        team: "Herren 2",
-        montag: "",
-        dienstag: "19:00 - 20:30 Uhr",
-        mittwoch: "",
-        donnerstag: "19:00 - 20:30 Uhr",
-        freitag: "",
-    },
-];
+import HERREN_DATA from "@/data/herren.json";
 
 function Herren() {
+    const TRAINER = HERREN_DATA.trainer;
+    const TRAININGSZEITEN = HERREN_DATA.trainingszeiten;
     return (
 
         <header className="bg-white p-8">

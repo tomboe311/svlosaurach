@@ -4,36 +4,11 @@ import React from "react";
 import {Typography} from "@material-tailwind/react";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
-
-const TRAINER = [
-    {
-        img: "",
-        name: "Markus Thomas",
-        section: "Trainer Alte Herren",
-        mail: "",
-        phone: "+49 (0) 1522 7005954",
-    },
-    {
-        img: "",
-        name: "Helmut Hofmockel",
-        section: "Spielleiter Alte Herren",
-        mail: "",
-        phone: "+49 (0) 172 8563666",
-    },
-];
-
-const TRAININGSZEITEN = [
-    {
-        team: "Alte Herren",
-        montag: "",
-        dienstag: "",
-        mittwoch: "19:00 - 20:30 Uhr",
-        donnerstag: "",
-        freitag: "",
-    },
-];
+import ALTE_HERREN_DATA from "@/data/alte-herren.json";
 
 function AlteHerren() {
+    const TRAINER = ALTE_HERREN_DATA.trainer;
+    const TRAININGSZEITEN = ALTE_HERREN_DATA.trainingszeiten;
     return (
 
         <header className="bg-white p-8">

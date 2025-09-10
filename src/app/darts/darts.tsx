@@ -4,36 +4,11 @@ import React from "react";
 import {Typography} from "@material-tailwind/react";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
-
-const TRAINER = [
-    {
-        img: "",
-        name: "Sebastian Klein",
-        section: "Abteilungsleiter",
-        mail: "",
-        phone: "+49 173 5701415",
-    },
-    {
-        img: "",
-        name: "Christian Böhm",
-        section: "Kapitän",
-        mail: "",
-        phone: "+49 172 5413841",
-    },
-];
-
-const TRAININGSZEITEN = [
-    {
-        team: "Dart",
-        montag: "",
-        dienstag: "",
-        mittwoch: "ab 18:00 Uhr",
-        donnerstag: "",
-        freitag: "",
-    },
-];
+import DARTS_DATA from "@/data/darts.json";
 
 function Darts() {
+    const TRAINER = DARTS_DATA.trainer;
+    const TRAININGSZEITEN = DARTS_DATA.trainingszeiten;
     return (
 
         <header className="bg-white p-8">

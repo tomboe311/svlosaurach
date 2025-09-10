@@ -4,67 +4,10 @@ import React from "react";
 import {Button, Typography} from "@material-tailwind/react";
 import {ProfileCard} from "@/components";
 import Link from "next/link";
-
-const VORSTANDSCHAFT = [
-    {
-        img: "",
-        name: "Marcel Weber",
-        section: "1. Vorsitzender",
-        mail: "",
-        phone: "+49 176 76858126",
-    },
-    {
-        img: "",
-        name: "Melanie Demjanowitsch",
-        section: "2. Vorsitzender",
-        mail: "",
-        phone: "+49 173 5622661",
-    },
-    {
-        img: "",
-        name: "Bernd Schemm",
-        section: "Kassier",
-        mail: "",
-        phone: "+49 170 8322215",
-    },
-    {
-        img: "",
-        name: "Stefan Löw",
-        section: "Schriftführer",
-        mail: "",
-        phone: "+49 177 1944123",
-    },
-    {
-        img: "",
-        name: "Daniel Eckert",
-        section: "Ausschussmitglied",
-        mail: "",
-        phone: "+49 1578 6867893",
-    },
-    {
-        img: "",
-        name: "Jürgen Feinauer",
-        section: "Ausschussmitglied",
-        mail: "",
-        phone: "+49 1511 9526558",
-    },
-    {
-        img: "",
-        name: "Jürgen Raab",
-        section: "Kassenprüfer",
-        mail: "",
-        phone: "",
-    },
-    {
-        img: "",
-        name: "Bernd Trapp",
-        section: "Kassenprüfer",
-        mail: "",
-        phone: "",
-    },
-];
+import FOERDERVEREIN_DATA from "@/data/foerderverein.json";
 
 function Foerderverein() {
+    const VORSTANDSCHAFT = FOERDERVEREIN_DATA.vorstandschaft;
     return (
         <header className="bg-white p-8">
             <div className="container mx-auto mb-20">

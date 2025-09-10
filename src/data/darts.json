@@ -1,0 +1,29 @@
+{
+  "trainer": [
+    {
+      "img": "",
+      "name": "Sebastian Klein",
+      "section": "Abteilungsleiter",
+      "mail": "",
+      "phone": "+49 173 5701415"
+    },
+    {
+      "img": "",
+      "name": "Christian Böhm",
+      "section": "Kapitän",
+      "mail": "",
+      "phone": "+49 172 5413841"
+    }
+  ],
+  "trainingszeiten": [
+    {
+      "team": "Dart",
+      "montag": "",
+      "dienstag": "",
+      "mittwoch": "ab 18:00 Uhr",
+      "donnerstag": "",
+      "freitag": ""
+    }
+  ]
+}
+

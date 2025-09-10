@@ -4,65 +4,11 @@ import React from "react";
 import {Typography} from "@material-tailwind/react";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
-
-const TRAINER = [
-    {
-        img: "",
-        name: "Christian Popp",
-        section: "Trainer 1. Frauenmannschaft",
-        mail: "",
-        phone: "+49 (0) 1520 8726937",
-    },
-    {
-        img: "",
-        name: "Franziska Clemens",
-        section: "Trainerin 2. Frauenmannschaft",
-        mail: "",
-        phone: "+49 (0) 1525 6158385",
-    },
-    {
-        img: "",
-        name: "Nick Salzer",
-        section: "Torwarttrainer",
-        mail: "",
-        phone: "+49 (0) 1520 4685778",
-    },
-    {
-        img: "",
-        name: "Manfred Meyer",
-        section: "Trainerassistent 2. Frauenmannschaft",
-        mail: "",
-        phone: "+49 (0) 175 1655724",
-    },
-    {
-        img: "",
-        name: "Susanne Strohmaier",
-        section: "Spielleiterin Frauen",
-        mail: "",
-        phone: "+49 (0) 170 7688000",
-    },
-];
-
-const TRAININGSZEITEN = [
-    {
-        team: "Frauen 1",
-        montag: "",
-        dienstag: "19:00 - 20:30 Uhr",
-        mittwoch: "",
-        donnerstag: "19:00 - 20:30 Uhr",
-        freitag: "",
-    },
-    {
-        team: "Frauen 2",
-        montag: "",
-        dienstag: "19:00 - 20:30 Uhr",
-        mittwoch: "",
-        donnerstag: "19:00 - 20:30 Uhr",
-        freitag: "",
-    },
-];
+import FRAUEN_DATA from "@/data/frauen.json";
 
 function Frauen() {
+    const TRAINER = FRAUEN_DATA.trainer;
+    const TRAININGSZEITEN = FRAUEN_DATA.trainingszeiten;
     return (
 
         <header className="bg-white p-8">
