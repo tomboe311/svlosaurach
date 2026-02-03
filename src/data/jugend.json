@@ -71,6 +71,22 @@
         "phone": "+49 1515 2988882"
       }
     ],
+    "U15 (SG) C3-Jugend": [
+      {
+        "team": "(SG) C3-Jugend",
+        "name": "Oliver Böhm",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 1514 0339128"
+      },
+      {
+        "team": "(SG) C3-Jugend",
+        "name": "Jürgen Hofmann",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 175 8603746"
+      }
+    ],
     "U13 (SG) D1-Jugend": [
       {
         "team": "(SG) D1-Jugend",
@@ -85,13 +101,6 @@
         "section": "Trainer",
         "mail": "",
         "phone": "+49 175 2021964"
-      },
-      {
-        "team": "(SG) 12-Jugend",
-        "name": "Max Geißendörfer",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 176 21166152"
       }
     ],
     "U13 (SG) D2-Jugend": [
@@ -115,6 +124,22 @@
         "section": "Trainer",
         "mail": "",
         "phone": "+49 176 62575825"
+      },
+      {
+        "team": "(SG) D2-Jugend",
+        "name": "Max Geißendörfer",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 176 21166152"
+      }
+    ],
+    "U13 (SG) D3-Jugend": [
+      {
+        "team": "(SG) D3-Jugend",
+        "name": "Jochen Datz",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 179 7584825"
       }
     ],
     "U11 E-Jugend": [
@@ -274,24 +299,33 @@
       },
       {
         "team": "E-Juniorinnen",
+        "name": "Kerstin Heinlein",
+        "section": "Trainerin",
+        "mail": "",
+        "phone": "+49 179 3264196"
+      }
+    ],
+    "U9 F-Juniorinnen": [
+      {
+        "team": "F-Juniorinnen",
+        "name": "Melanie Demjanowitsch",
+        "section": "Trainerin",
+        "mail": "",
+        "phone": "+49 173 5622661"
+      },
+      {
+        "team": "F-Juniorinnen",
         "name": "Vivien Göß",
         "section": "Trainerin",
         "mail": "",
         "phone": "+49 163 4846926"
       },
       {
-        "team": "E-Juniorinnen",
-        "name": "Kerstin Heinlein",
+        "team": "F-Juniorinnen",
+        "name": "Ulli Schlarb",
         "section": "Trainerin",
         "mail": "",
-        "phone": "+49 179 3264196"
-      },
-      {
-        "team": "E-Juniorinnen",
-        "name": "Melanie Demjanowitsch",
-        "section": "Trainerin",
-        "mail": "",
-        "phone": "+49 173 5622661"
+        "phone": "+49 160 93741332"
       }
     ]
   },
@@ -306,14 +340,14 @@
     },
     {
       "team": "U17/U16 (B-Junioren)",
-      "montag": "17:15 - 18:45 Uhr (Sportplatz Markt Erlbach)",
+      "montag": "",
       "dienstag": "",
-      "mittwoch": "17:15 - 18:45 Uhr (Sportplatz Losaurach)",
+      "mittwoch": "19:00 - 20:30 Uhr (Sportplatz Losaurach)",
       "donnerstag": "",
       "freitag": ""
     },
     {
-      "team": "U15/U14 (C1/C2-Junioren)",
+      "team": "U15/U14 (C1/C3-Junioren)",
       "montag": "",
       "dienstag": "17:15 - 19:00 Uhr (Sportplatz Markt Erlbach)",
       "mittwoch": "",
@@ -321,7 +355,15 @@
       "freitag": ""
     },
     {
-      "team": "U13/U12 (D1/D2-Junioren)",
+      "team": "U15/U14 (C2-Junioren)",
+      "montag": "17:15 - 19:00 Uhr (Sportplatz Losaurach)",
+      "dienstag": "",
+      "mittwoch": "",
+      "donnerstag": "17:15 - 19:00 Uhr (Sportplatz Markt Erlbach)",
+      "freitag": ""
+    },
+    {
+      "team": "U13/U12 (D1/D2/D3-Junioren)",
       "montag": "",
       "dienstag": "",
       "mittwoch": "17:30 - 19:00 Uhr (Sportplatz Losaurach)",
@@ -329,7 +371,7 @@
       "freitag": "17:30 - 19:00 Uhr (Sportplatz Losaurach)"
     },
     {
-      "team": "U11/U10 (E1/E2-Junioren)",
+      "team": "U11/U10 (E1-Junioren)",
       "montag": "",
       "dienstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
       "mittwoch": "",
@@ -337,7 +379,7 @@
       "freitag": ""
     },
     {
-      "team": "U9/U8 (F-Junioren)",
+      "team": "U9/U8 (F1/F2/F3-Junioren)",
       "montag": "",
       "dienstag": "",
       "mittwoch": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
@@ -370,6 +412,14 @@
     },
     {
       "team": "U11/U10 (E-Juniorinnen)",
+      "montag": "",
+      "dienstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+      "mittwoch": "",
+      "donnerstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+      "freitag": ""
+    },
+    {
+      "team": "U9/U8 (F-Juniorinnen)",
       "montag": "",
       "dienstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
       "mittwoch": "",

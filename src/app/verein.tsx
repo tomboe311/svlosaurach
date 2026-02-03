@@ -31,7 +31,7 @@ const VEREIN_ITEMS = [
     },
     {
         icon: GlobeAltIcon,
-        children: "19 Fußballteams",
+        children: "17 Fußballteams",
     }
 ];
 
