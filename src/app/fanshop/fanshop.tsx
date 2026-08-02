@@ -8,7 +8,7 @@ import {ProfileCard} from "@/components";
 const shops = [
     {
         name: "Fabes Creates",
-        url: "https://www.fabes-creates.de/c/fanshop/shops/sv-losaurach",
+        url: "https://fabes-creates.de/collections/sv-losaurach",
         img: "/images/fabes-creates.jpeg",
     },
     {
