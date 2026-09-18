@@ -1,10 +1,11 @@
 "use client";
 
 import React from "react";
-import {Typography} from "@material-tailwind/react";
+import {Button, Typography} from "@material-tailwind/react";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
 import DARTS_DATA from "@/data/darts.json";
+import Link from "next/link";
 
 function Darts() {
     const TRAINER = DARTS_DATA.trainer;
@@ -19,6 +20,18 @@ function Darts() {
                     className="mb-4 lg:text-5xl !leading-tight text-3xl"
                 >
                     Darts
+                    <Link href="https://portal.3k-darts.com/frontend/events/9/event/38651/table"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ms-4"
+                    >
+                        <Button
+                            color="yellow"
+                            size="sm"
+                        >
+                            Zur Dart Liga
+                        </Button>
+                    </Link>
                 </Typography>
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
                     Am 25.03.2023 wurde auf der Jahreshauptversammlung des SV Losaurach e.V. die Abteilung
@@ -80,7 +93,7 @@ function Darts() {
                     Trainingsort: Sportheim Saal Losaurach
                 </Typography>
                 <Typography variant="small" color="blue-gray" className="my-4">
-                    Trainingszeiten können sich kurzfristig ändern. Bitte informieren Sie sich bei den Trainern.
+                    Die Trainingszeiten können sich kurzfristig ändern. Bitte informiere dich vorab direkt bei den Trainern.
                 </Typography>
             </div>
         </header>

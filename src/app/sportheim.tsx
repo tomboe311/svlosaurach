@@ -31,7 +31,7 @@ export function Sportheim() {
                                     {day: "Montag", "hours": "geschlossen"},
                                     {day: "Dienstag", hours: "geschlossen"},
                                     {day: "Mittwoch", hours: "18:00 - 22:00 (Küche: geschlossen)"},
-                                    {day: "Donnerstag", hours: "19:00 - 22:00 (Küche: geschlossen)"},
+                                    {day: "Donnerstag", hours: "geschlossen"},
                                     {day: "Freitag", hours: "geschlossen"},
                                     {day: "Samstag", hours: "15:00 - 22:00 (Küche: 16:00 - 19:00)"},
                                     {day: "Sonntag", hours: "09:00 - 21:00 (Küche: 11:00 - 19:00)", notice:"Sonntags wenn kein Fußballbetrieb von 13:00 - 17:00 geschlossen"}

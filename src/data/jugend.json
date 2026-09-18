@@ -2,169 +2,190 @@
   "trainer": {
     "U19 (SG) A-Jugend": [
       {
-        "team": "(SG) A1-Jugend",
-        "name": "Manfred Jobst",
+        "team": "(SG) A-Jugend",
+        "name": "Heiko Gräbner",
         "section": "Trainer",
         "mail": "",
-        "phone": "+49 176 43246360"
-      },
+        "phone": "+49 172 8621772"
+      }
+    ],
+    "U17 (SG) B-Jugend": [
       {
-        "team": "(SG) A1-Jugend",
+        "team": "(SG) B-Jugend",
         "name": "Laurenz Maneth",
         "section": "Trainer",
         "mail": "",
         "phone": "+49 175 3218891"
       },
       {
-        "team": "(SG) A1-Jugend",
+        "team": "(SG) B-Jugend",
         "name": "Paul Popp",
         "section": "Trainer",
         "mail": "",
         "phone": "+49 175 2474272"
-      }
-    ],
-    "U17 (SG) B-Jugend": [
-      {
-        "team": "(SG) B-Jugend",
-        "name": "Heiko Gräbner",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 172 8621772"
       },
       {
         "team": "(SG) B-Jugend",
-        "name": "Heiko Weißfloch",
+        "name": "Heinrik Böhm",
         "section": "Trainer",
         "mail": "",
-        "phone": "+49 1522 4934155"
+        "phone": "+49 1514 1294271"
       }
     ],
     "U15 (SG) C1-Jugend": [
       {
         "team": "(SG) C1-Jugend",
-        "name": "Oliver Böhm",
+        "name": "Max Geißendörfer",
         "section": "Trainer",
         "mail": "",
-        "phone": "+49 1514 0339128"
+        "phone": "+49 176 21166152"
       },
       {
         "team": "(SG) C1-Jugend",
-        "name": "Jürgen Hofmann",
+        "name": "Stefan Scheuring",
         "section": "Trainer",
         "mail": "",
-        "phone": "+49 175 8603746"
+        "phone": "+49 176 11616533"
       }
     ],
     "U15 (SG) C2-Jugend": [
       {
         "team": "(SG) C2-Jugend",
-        "name": "Heinz Kerschbaum",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 1515 0594913"
-      },
-      {
-        "team": "(SG) C2-Jugend",
-        "name": "Andreas Mann",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 1515 2988882"
-      }
-    ],
-    "U15 (SG) C3-Jugend": [
-      {
-        "team": "(SG) C3-Jugend",
-        "name": "Oliver Böhm",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 1514 0339128"
-      },
-      {
-        "team": "(SG) C3-Jugend",
-        "name": "Jürgen Hofmann",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 175 8603746"
-      }
-    ],
-    "U13 (SG) D1-Jugend": [
-      {
-        "team": "(SG) D1-Jugend",
         "name": "Jochen Datz",
         "section": "Trainer",
         "mail": "",
         "phone": "+49 179 7584825"
       },
       {
-        "team": "(SG) D1-Jugend",
+        "team": "(SG) C2-Jugend",
+        "name": "Jochen Ingrisch",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 1515 6033999"
+      },
+      {
+        "team": "(SG) C2-Jugend",
         "name": "Thomas Bibelriether",
         "section": "Trainer",
         "mail": "",
         "phone": "+49 175 2021964"
-      }
-    ],
-    "U13 (SG) D2-Jugend": [
-      {
-        "team": "(SG) D2-Jugend",
-        "name": "Yvonne Pech",
-        "section": "Trainerin",
-        "mail": "",
-        "phone": "+49 1590 4832239"
       },
       {
-        "team": "(SG) D2-Jugend",
-        "name": "Jürgen Raab",
+        "team": "(SG) C2-Jugend",
+        "name": "Benjamin Brendel",
         "section": "Trainer",
         "mail": "",
-        "phone": "+49 171 8868443"
+        "phone": "+49 176 96037060"
       },
       {
-        "team": "(SG) D2-Jugend",
-        "name": "Marco Fischer",
+        "team": "(SG) C2-Jugend",
+        "name": "Sven Tiefel",
         "section": "Trainer",
         "mail": "",
-        "phone": "+49 176 62575825"
+        "phone": "+49 173 8583978"
+      }
+    ],
+    "U13 (SG) D-Jugend": [
+      {
+        "team": "(SG) D-Jugend",
+        "name": "René Ultsch",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 1523 3943970"
       },
       {
-        "team": "(SG) D2-Jugend",
-        "name": "Max Geißendörfer",
+        "team": "(SG) D-Jugend",
+        "name": "Mar+n Tetmeyer",
         "section": "Trainer",
         "mail": "",
-        "phone": "+49 176 21166152"
-      }
-    ],
-    "U13 (SG) D3-Jugend": [
+        "phone": "+49 173 3519297"
+      },
       {
-        "team": "(SG) D3-Jugend",
-        "name": "Jochen Datz",
+        "team": "(SG) D-Jugend",
+        "name": "Manfred Jobst",
         "section": "Trainer",
         "mail": "",
-        "phone": "+49 179 7584825"
+        "phone": "+49 176 43246360"
+      },
+      {
+        "team": "(SG) D-Jugend",
+        "name": "Timo Kauz",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 176 80872923"
+      },
+      {
+        "team": "(SG) D-Jugend",
+        "name": "Henric Raab",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 174 9175951"
       }
     ],
-    "U11 E-Jugend": [
+    "U11 E1-Jugend": [
       {
-        "team": "E-Jugend",
+        "team": "E1-Jugend",
         "name": "Daniel Ströbel",
         "section": "Trainer",
         "mail": "",
         "phone": "+49 162 4227650"
       },
       {
-        "team": "E-Jugend",
+        "team": "E1-Jugend",
         "name": "Noah Reuthlingshöfer",
         "section": "Trainer",
         "mail": "",
         "phone": "+49 160 2761444"
       }
     ],
-    "U9 F1-Jugend": [
+    "U11 E2-Jugend": [
       {
-        "team": "F1-Jugend",
+        "team": "E2-Jugend",
         "name": "Andreas Schönleben",
         "section": "Trainer",
         "mail": "",
         "phone": "+49 179 3624394"
+      },
+      {
+        "team": "E2-Jugend",
+        "name": "Chris Seibold",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 176 81323562"
+      }
+    ],
+    "U11 E3-Jugend": [
+      {
+        "team": "E2-Jugend",
+        "name": "Andreas Schönleben",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 179 3624394"
+      }
+    ],
+    "U9 F1-Jugend": [
+      {
+        "team": "F1-Jugend",
+        "name": "Steﬀen Endner",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 172 5237145 "
+      },
+      {
+        "team": "F2-Jugend",
+        "name": "Markus Nießlbeck",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 1511 5532764"
+      }
+    ],
+    "U9 F2-Jugend": [
+      {
+        "team": "F1-Jugend",
+        "name": "AneL Stefani-Kato",
+        "section": "Trainerin",
+        "mail": "",
+        "phone": "+49 173 7687882"
       },
       {
         "team": "F1-Jugend",
@@ -174,46 +195,16 @@
         "phone": "+49 174 4603326"
       }
     ],
-    "U9 F2-Jugend": [
-      {
-        "team": "F2-Jugend",
-        "name": "Markus Nießlbeck",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 1511 5532764"
-      },
-      {
-        "team": "F2-Jugend",
-        "name": "Philipp Seibold",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 176 83076103"
-      }
-    ],
     "U9 F3-Jugend": [
       {
         "team": "F3-Jugend",
-        "name": "Steffen Endner",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 172 5237145"
-      }
-    ],
-    "U7 G-Jugend": [
-      {
-        "team": "G-Jugend",
         "name": "Peter Werner",
         "section": "Trainer",
         "mail": "",
         "phone": "+49 1512 7194672"
-      },
-      {
-        "team": "G-Jugend",
-        "name": "Anett Stefani-Kato",
-        "section": "Trainerin",
-        "mail": "",
-        "phone": "+49 173 7687882"
-      },
+      }
+    ],
+    "U7 G-Jugend": [
       {
         "team": "G-Jugend",
         "name": "Michael Stefani",
@@ -257,125 +248,118 @@
         "section": "Trainerin",
         "mail": "",
         "phone": "+49 173 3592401"
-      },
-      {
-        "team": "B-Juniorinnen",
-        "name": "Lea Stefani",
-        "section": "Trainerin",
-        "mail": "",
-        "phone": "+49 162 9433129"
       }
     ],
-    "U13 D-Juniorinnen": [
+    "U13 D1-Juniorinnen": [
       {
-        "team": "D-Juniorinnen",
+        "team": "D1-Juniorinnen",
         "name": "Anne Kettner",
         "section": "Trainerin",
         "mail": "",
         "phone": "+49 1578 6763662"
       },
       {
-        "team": "D-Juniorinnen",
+        "team": "D1-Juniorinnen",
         "name": "Svenja Hofmockel",
         "section": "Trainerin",
         "mail": "",
         "phone": "+49 172 8264046"
       }
     ],
+    "U13 D2-Juniorinnen": [
+      {
+        "team": "D2-Juniorinnen",
+        "name": "Mario Stanicu",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 179 5232531"
+      }
+    ],
     "U11 E-Juniorinnen": [
-      {
-        "team": "E-Juniorinnen",
-        "name": "Markus Sandmann",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 1575 6026348"
-      },
-      {
-        "team": "E-Juniorinnen",
-        "name": "Heiko Schemm",
-        "section": "Trainer",
-        "mail": "",
-        "phone": "+49 1522 2675391"
-      },
       {
         "team": "E-Juniorinnen",
         "name": "Kerstin Heinlein",
         "section": "Trainerin",
         "mail": "",
         "phone": "+49 179 3264196"
-      }
-    ],
-    "U9 F-Juniorinnen": [
-      {
-        "team": "F-Juniorinnen",
-        "name": "Vivien Göß",
-        "section": "Trainerin",
-        "mail": "",
-        "phone": "+49 163 4846926"
       },
       {
-        "team": "F-Juniorinnen",
-        "name": "Ulli Schlarb",
+        "team": "E-Juniorinnen",
+        "name": "Ingo Hölzel",
+        "section": "Trainer",
+        "mail": "",
+        "phone": "+49 172 1043860"
+      },
+      {
+        "team": "E-Juniorinnen",
+        "name": "Doris Hölzel",
         "section": "Trainerin",
         "mail": "",
-        "phone": "+49 160 93741332"
+        "phone": "+49 173 2347356"
+      },
+      {
+        "team": "E-Juniorinnen",
+        "name": "Ulrike Schlarb",
+        "section": "Trainerin",
+        "mail": "",
+        "phone": "+49 177 7041799"
       }
     ]
   },
   "trainingszeiten": [
     {
       "team": "U19/U18 (A-Junioren)",
-      "montag": "19:00 - 20:30 Uhr (Sportplatz Markt Erlbach)",
+      "montag": "19:00 - 20:30 Uhr (Losaurach)",
       "dienstag": "",
-      "mittwoch": "",
-      "donnerstag": "18:30 - 20:00 Uhr (Sportplatz Markt Erlbach)",
+      "mittwoch": "19:00 - 20:30 Uhr (Markt Erlbach)",
+      "donnerstag": "",
       "freitag": ""
     },
     {
       "team": "U17/U16 (B-Junioren)",
       "montag": "",
-      "dienstag": "",
-      "mittwoch": "19:00 - 20:30 Uhr (Sportplatz Losaurach)",
-      "donnerstag": "",
+      "dienstag": "17:00 - 18:30 Uhr (Markt Erlbach)",
+      "mittwoch": "",
+      "donnerstag": "17:00 - 18:30 Uhr (Markt Erlbach)",
       "freitag": ""
     },
     {
-      "team": "U15/U14 (C1/C3-Junioren)",
+      "team": "U15/U14 (C1-Junioren)",
       "montag": "",
-      "dienstag": "17:15 - 19:00 Uhr (Sportplatz Markt Erlbach)",
-      "mittwoch": "",
-      "donnerstag": "17:15 - 19:00 Uhr (Sportplatz Markt Erlbach)",
-      "freitag": ""
+      "dienstag": "",
+      "mittwoch": "17:30 - 19:00 Uhr (Markt Erlbach)",
+      "donnerstag": "",
+      "freitag": "17:30 - 19:00 Uhr (Markt Erlbach)"
     },
     {
       "team": "U15/U14 (C2-Junioren)",
-      "montag": "17:15 - 19:00 Uhr (Sportplatz Losaurach)",
+      "montag": "",
+      "dienstag": "",
+      "mittwoch": "18:00 - 19:30 Uhr (Losaurach)",
+      "donnerstag": "",
+      "freitag": "17:30 - 19:00 Uhr (Losaurach)"
+    },
+    {
+      "team": "U13/U12 (D-Junioren)",
+      "montag": "17:30 - 19:00 Uhr (Markt Erlbach)",
       "dienstag": "",
       "mittwoch": "",
-      "donnerstag": "17:15 - 19:00 Uhr (Sportplatz Markt Erlbach)",
+      "donnerstag": "",
       "freitag": ""
     },
     {
-      "team": "U13/U12 (D1/D2/D3-Junioren)",
+      "team": "U11/U10 (E1/E2/E3-Junioren)",
       "montag": "",
-      "dienstag": "",
-      "mittwoch": "17:30 - 19:00 Uhr (Sportplatz Losaurach)",
-      "donnerstag": "",
-      "freitag": "17:30 - 19:00 Uhr (Sportplatz Losaurach)"
-    },
-    {
-      "team": "U11/U10 (E1-Junioren)",
-      "montag": "",
-      "dienstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+      "dienstag": "17:00 - 18:30 Uhr (Losaurach)",
       "mittwoch": "",
-      "donnerstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+      "donnerstag": "",
       "freitag": ""
     },
     {
       "team": "U9/U8 (F1/F2/F3-Junioren)",
       "montag": "",
       "dienstag": "",
-      "mittwoch": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+      "mittwoch": "17:00 - 18:30 Uhr (Losaurach)",
       "donnerstag": "",
       "freitag": ""
     },
@@ -383,40 +367,32 @@
       "team": "U7 (G-Junioren)",
       "montag": "",
       "dienstag": "",
-      "mittwoch": "17:00 - 18:00 Uhr (Sportplatz Losaurach)",
+      "mittwoch": "17:15 - 18:30 Uhr (Losaurach)",
       "donnerstag": "",
       "freitag": ""
     },
     {
       "team": "U17/U16 (B-Juniorinnen)",
       "montag": "",
-      "dienstag": "17:30 - 19:00 Uhr (Sportplatz Losaurach)",
+      "dienstag": "17:30 - 19:00 Uhr (Losaurach)",
       "mittwoch": "",
-      "donnerstag": "17:30 - 19:00 Uhr (Sportplatz Losaurach)",
+      "donnerstag": "17:30 - 19:00 Uhr (Losaurach)",
       "freitag": ""
     },
     {
       "team": "U13/U12 (D-Juniorinnen)",
       "montag": "",
-      "dienstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+      "dienstag": "17:00 - 18:30 Uhr (Losaurach)",
       "mittwoch": "",
-      "donnerstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+      "donnerstag": "17:00 - 18:30 Uhr (Losaurach)",
       "freitag": ""
     },
     {
       "team": "U11/U10 (E-Juniorinnen)",
       "montag": "",
-      "dienstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+      "dienstag": "17:00 - 18:30 Uhr (Losaurach)",
       "mittwoch": "",
-      "donnerstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
-      "freitag": ""
-    },
-    {
-      "team": "U9/U8 (F-Juniorinnen)",
-      "montag": "",
-      "dienstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
-      "mittwoch": "",
-      "donnerstag": "17:00 - 18:30 Uhr (Sportplatz Losaurach)",
+      "donnerstag": "17:30 - 19:00 Uhr (Losaurach)",
       "freitag": ""
     }
   ]

@@ -49,7 +49,7 @@ function AlteHerren() {
                     Trainingsort: Sportplatz Losaurach
                 </Typography>
                 <Typography variant="small" color="blue-gray" className="my-4">
-                    Trainingszeiten können sich kurzfristig ändern. Bitte informieren Sie sich bei den Trainern.
+                    Die Trainingszeiten können sich kurzfristig ändern. Bitte informiere dich vorab direkt bei den Trainern.
                 </Typography>
             </div>
         </header>

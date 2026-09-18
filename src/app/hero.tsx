@@ -13,7 +13,7 @@ function Hero() {
                         variant="lead"
                         className="mb-4 text-3xl !text-gray-500 md:pr-16 xl:pr-28"
                     >
-                        Herzlich Willkommen beim
+                        Herzlich willkommen beim
                     </Typography>
                     <Typography
                         variant="h1"

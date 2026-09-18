@@ -22,9 +22,7 @@ function Frauen() {
                 </Typography>
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
                     Die Frauenmannschaften sind seit vielen Jahren ein fester Bestandteil des SV Losaurach.
-                    Der Verein stellt zwei Teams im aktiven Ligabetrieb. Die 1. Frauenmannschaft tritt eigenständig für
-                    den SV Losaurach an, während die 2. Frauenmannschaft als Spielgemeinschaft mit dem TSV Wilhermsdorf
-                    agiert. Auf diese Weise wird Frauen ab 16 Jahren ein breites Spektrum an Möglichkeiten geboten, sich
+                    Der Verein stellt zwei Teams im aktiven Ligabetrieb. Auf diese Weise wird Frauen ab 16 Jahren ein breites Spektrum an Möglichkeiten geboten, sich
                     sportlich zu engagieren und weiterzuentwickeln.
                 </Typography>
                 <img
@@ -53,7 +51,7 @@ function Frauen() {
                     Trainingsort: Sportplatz Losaurach
                 </Typography>
                 <Typography variant="small" color="blue-gray" className="my-4">
-                    Trainingszeiten können sich kurzfristig ändern. Bitte informieren Sie sich bei den Trainern.
+                    Die Trainingszeiten können sich kurzfristig ändern. Bitte informiere dich vorab direkt bei den Trainern.
                 </Typography>
             </div>
         </header>

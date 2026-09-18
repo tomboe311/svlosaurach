@@ -10,7 +10,7 @@
   ],
   "trainingszeiten": [
     {
-      "team": "Jugend (Lichtgewehr)",
+      "team": "Jugend (Luftgewehr)",
       "montag": "",
       "dienstag": "18:00 Uhr",
       "mittwoch": "",
@@ -28,8 +28,8 @@
     {
       "team": "Erwachsene (Luftgewehr & Luftpistole)",
       "montag": "",
-      "dienstag": "",
-      "mittwoch": "19:00 Uhr",
+      "dienstag": "19:00 Uhr",
+      "mittwoch": "",
       "donnerstag": "",
       "freitag": ""
     }
