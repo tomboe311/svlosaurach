@@ -22,6 +22,7 @@ import {
     UserGroupIcon,
 } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import {usePathname} from "next/navigation";
 import Image from "next/image";
 
 const navListMenuItems = [
@@ -54,6 +55,15 @@ const navListMenuItems = [
 function NavListMenu() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+    const pathname = usePathname();
+
+    // The navbar lives in the shared layout and survives client-side navigation,
+    // so open states must be reset explicitly when the page changes.
+    React.useEffect(() => {
+        setIsMenuOpen(false);
+        setIsMobileMenuOpen(false);
+    }, [pathname]);
+
     const renderItems = navListMenuItems.map(
         ({ icon, title, href, description }, key) => (
             <Link href={href} key={key}>
@@ -98,7 +108,7 @@ function NavListMenu() {
                     <Typography as="div" variant="paragraph" className="font-medium">
                         <ListItem
                             className="flex items-center gap-2 py-2 pr-4 font-medium text-gray-900"
-                            selected={isMenuOpen || isMobileMenuOpen}
+                            selected={isMenuOpen}
                             onClick={() => setIsMobileMenuOpen((cur) => !cur)}
                         >
                             Fußball
@@ -158,6 +168,7 @@ function NavList() {
 
 export function NavbarWithMegaMenu() {
     const [openNav, setOpenNav] = React.useState(false);
+    const pathname = usePathname();
 
     React.useEffect(() => {
         window.addEventListener(
@@ -165,6 +176,10 @@ export function NavbarWithMegaMenu() {
             () => window.innerWidth >= 960 && setOpenNav(false),
         );
     }, []);
+
+    React.useEffect(() => {
+        setOpenNav(false);
+    }, [pathname]);
 
     return (
         <Navbar shadow={false} fullWidth className="px-4 py-4 border-0 sticky top-0 z-50">
