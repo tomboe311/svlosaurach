@@ -1,15 +1,9 @@
+"use client";
+
 import {Card} from "@material-tailwind/react";
 import TableView from "@/components/trainingszeiten/tableView";
 import CardView from "@/components/trainingszeiten/cardView";
-
-type TrainingRow = {
-    team: string;
-    montag: string;
-    dienstag: string;
-    mittwoch: string;
-    donnerstag: string;
-    freitag: string;
-};
+import {TrainingRow} from "@/types/content";
 
 type TrainingszeitenProps = {
     rows: TrainingRow[];

@@ -5,6 +5,7 @@ import {Typography} from "@material-tailwind/react";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
 import HERREN_DATA from "@/data/herren.json";
+import Image from "next/image";
 
 function Herren() {
     const TRAINER = HERREN_DATA.trainer;
@@ -25,10 +26,12 @@ function Herren() {
                     Auf diese Weise bieten wir unserer Jugend eine langfristige Perspektive und die Möglichkeit, sich auch
                     im Erwachsenenalter sportlich zu betätigen und weiterzuentwickeln.
                 </Typography>
-                <img
+                <Image
                     className="min-h-full w-full rounded-lg object-cover object-center"
                     src="/teams/herren-2025.jpeg"
                     alt="Herrenmannschaft"
+                    width={1600}
+                    height={900}
                 />
             </div>
             <div className="container mx-auto">

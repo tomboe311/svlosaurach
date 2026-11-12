@@ -1,3 +1,5 @@
+"use client";
+
 import {
     Card,
     CardHeader,
@@ -6,20 +8,22 @@ import {
     Typography,
     Tooltip,
 } from "@material-tailwind/react";
+import Image from "next/image";
+import {PersonProfile} from "@/types/content";
 
-interface ProfileCardProps {
-    img: string;
-    name: string;
-    section: string;
-    mail?: string;
-    phone?: string;
-}
-
-export function ProfileCard({img, name, section, mail, phone}: ProfileCardProps) {
+export function ProfileCard({img, name, section, mail, phone}: PersonProfile) {
     return (
         <Card className="w-full max-w-[384px] mx-auto">
             <CardHeader floated={false} className="h-auto">
-                {img &&( <img src={img} alt="profile-picture" />)}
+                {img && (
+                    <Image
+                        src={img}
+                        alt={`Profilbild von ${name}`}
+                        width={384}
+                        height={384}
+                        className="h-auto w-full"
+                    />
+                )}
             </CardHeader>
             <CardBody className="text-center">
                 <Typography variant="h4" color="blue-gray" className="mb-2">
@@ -43,17 +47,19 @@ export function ProfileCard({img, name, section, mail, phone}: ProfileCardProps)
                         </Typography>
                     </Tooltip>
                 )}
-                <Tooltip content="Telefonnummer">
-                    <Typography
-                        as="a"
-                        href={`tel:${phone}`}
-                        variant="lead"
-                        color="yellow"
-                        textGradient
-                    >
-                        <i className="fas fa-phone" aria-hidden="true"/>
-                    </Typography>
-                </Tooltip>
+                {phone && (
+                    <Tooltip content="Telefonnummer">
+                        <Typography
+                            as="a"
+                            href={`tel:${phone}`}
+                            variant="lead"
+                            color="yellow"
+                            textGradient
+                        >
+                            <i className="fas fa-phone" aria-hidden="true"/>
+                        </Typography>
+                    </Tooltip>
+                )}
             </CardFooter>
         </Card>
     );

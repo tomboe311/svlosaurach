@@ -2,6 +2,7 @@
 
 import React from "react";
 import {Button} from "@material-tailwind/react";
+import Link from "next/link";
 
 export default function NotFound() {
     return (
@@ -11,11 +12,11 @@ export default function NotFound() {
                 <p className="m-8 text-4xl text-center">Die angeforderte Seite konnte nicht gefunden werden. Es sieht so aus, als hätten wir das
                     Tor verfehlt!
                 </p>
-                <a href="/">
+                <Link href="/">
                     <Button color="yellow" className="mt-8">
                     Zurück zum Anstoßpunkt
                     </Button>
-                </a>
+                </Link>
             </div>
         </div>
     )

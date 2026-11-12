@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import {Typography, Card, CardBody, Button, CardFooter} from "@material-tailwind/react";
+import {Typography, Card, CardBody, Button} from "@material-tailwind/react";
 import Link from "next/link";
-import {ProfileCard} from "@/components";
+import Image from "next/image";
 
 const shops = [
     {
@@ -42,7 +42,13 @@ export default function Fanshop() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {shops.map((shop, index) => (
                         <Card key={index} className="shadow-lg">
-                            <img src={shop.img} alt={shop.name} className="h-48 w-full object-cover"/>
+                            <Image
+                                src={shop.img}
+                                alt={shop.name}
+                                width={600}
+                                height={300}
+                                className="h-48 w-full object-cover"
+                            />
                             <CardBody className="text-center">
                                 <Typography variant="h5" className="mb-4">
                                     {shop.name}

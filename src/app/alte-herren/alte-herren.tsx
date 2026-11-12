@@ -5,6 +5,7 @@ import {Typography} from "@material-tailwind/react";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
 import ALTE_HERREN_DATA from "@/data/alte-herren.json";
+import Image from "next/image";
 
 function AlteHerren() {
     const TRAINER = ALTE_HERREN_DATA.trainer;
@@ -23,10 +24,12 @@ function AlteHerren() {
                 <Typography variant="lead" className="mb-4 !text-gray-500 md:pr-16 xl:pr-28">
                     Unsere Alten Herren sind ehemalige Leistungsträger der Herrenmannschaft. Mit viel Spaß und Freude sind sie weiterhin aktiv und spielen regelmäßig Fußball.
                 </Typography>
-                <img
+                <Image
                     className="min-h-full w-full rounded-lg object-cover object-center"
                     src="/teams/alte-herren.jpeg"
                     alt="Alte Herren Mannschaftsbild"
+                    width={1600}
+                    height={900}
                 />
             </div>
             <div className="container mx-auto">

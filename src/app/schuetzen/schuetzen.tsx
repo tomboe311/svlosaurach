@@ -5,6 +5,7 @@ import {Typography} from "@material-tailwind/react";
 import {ProfileCard} from "@/components";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import SCHUETZEN_DATA from "@/data/schuetzen.json";
+import Image from "next/image";
 
 function Schuetzen() {
     const TRAINER = SCHUETZEN_DATA.trainer;
@@ -26,10 +27,12 @@ function Schuetzen() {
                     Im Schützenkeller ist man mit seinen gut 165 Mitgliedern bis heute aktiv. Derzeit befinden sich vier Mannschaften im Rundenwettkampf. Auch unsere Jugend trifft sich regelmäßig, um mit Luft-/ und Lichtgewehren zu trainieren. Wer sich unseren Schützen anschließen möchte, kann sich gerne mit Schützenmeister Christian Mederer in Verbindung setzen.
                 </Typography>
                 <div className="text-center">
-                    <img
+                    <Image
                         className="mx-auto min-h-full w-1/2 rounded-lg object-cover object-center"
                         src="/teams/sv-losaurach-schuetzen.jpeg"
-                        alt="SV Losaurach - Los Dartos"
+                        alt="SV Losaurach Schützen"
+                        width={1200}
+                        height={800}
                     />
                     <Typography variant="small" className="mt-2 font-normal">
                         Foto: Gudrun Schwarz-Köhler - FLZ

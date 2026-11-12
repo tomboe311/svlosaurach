@@ -6,6 +6,7 @@ import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
 import DARTS_DATA from "@/data/darts.json";
 import Link from "next/link";
+import Image from "next/image";
 
 function Darts() {
     const TRAINER = DARTS_DATA.trainer;
@@ -67,10 +68,12 @@ function Darts() {
                     Egal, ob ihr schon Erfahrung habt oder absolute Anfänger seid: Bei uns ist jeder
                     willkommen!
                 </Typography>
-                <img
+                <Image
                     className="min-h-full w-full rounded-lg object-cover object-center"
                     src="/teams/sv-losaurach-dart.jpeg"
                     alt="SV Losaurach - Los Dartos"
+                    width={1600}
+                    height={900}
                 />
             </div>
             <div className="container mx-auto">

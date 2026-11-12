@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import {
     Navbar,
@@ -20,6 +22,7 @@ import {
     UserGroupIcon,
 } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import Image from "next/image";
 
 const navListMenuItems = [
     {
@@ -53,7 +56,7 @@ function NavListMenu() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
     const renderItems = navListMenuItems.map(
         ({ icon, title, href, description }, key) => (
-            <a href={href} key={key}>
+            <Link href={href} key={key}>
                 <MenuItem className="flex items-center gap-3 rounded-lg">
                     <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
                         {" "}
@@ -78,7 +81,7 @@ function NavListMenu() {
                         </Typography>
                     </div>
                 </MenuItem>
-            </a>
+            </Link>
         ),
     );
 
@@ -130,61 +133,25 @@ function NavListMenu() {
 function NavList() {
     return (
         <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
-            <Typography
-                as="a"
-                href="/verein"
-                variant="paragraph"
-                color="blue-gray"
-                className="font-medium"
-            >
+            <Link href="/verein" className="font-medium">
                 <ListItem className="flex items-center gap-2 py-2 pr-4">Verein</ListItem>
-            </Typography>
+            </Link>
             <NavListMenu />
-            <Typography
-                as="a"
-                href="/schuetzen"
-                variant="paragraph"
-                color="blue-gray"
-                className="font-medium"
-            >
+            <Link href="/schuetzen" className="font-medium">
                 <ListItem className="flex items-center gap-2 py-2 pr-4">Schützen</ListItem>
-            </Typography>
-            <Typography
-                as="a"
-                href="/seifenkiste"
-                variant="paragraph"
-                color="blue-gray"
-                className="font-medium"
-            >
+            </Link>
+            <Link href="/seifenkiste" className="font-medium">
                 <ListItem className="flex items-center gap-2 py-2 pr-4">Seifenkiste</ListItem>
-            </Typography>
-            <Typography
-                as="a"
-                href="/darts"
-                variant="paragraph"
-                color="blue-gray"
-                className="font-medium"
-            >
+            </Link>
+            <Link href="/darts" className="font-medium">
                 <ListItem className="flex items-center gap-2 py-2 pr-4">Darts</ListItem>
-            </Typography>
-            <Typography
-                as="a"
-                href="/foerderverein"
-                variant="paragraph"
-                color="blue-gray"
-                className="font-medium"
-            >
+            </Link>
+            <Link href="/foerderverein" className="font-medium">
                 <ListItem className="flex items-center gap-2 py-2 pr-4">Förderverein</ListItem>
-            </Typography>
-            <Typography
-                as="a"
-                href="/fanshop"
-                variant="paragraph"
-                color="blue-gray"
-                className="font-medium"
-            >
+            </Link>
+            <Link href="/fanshop" className="font-medium">
                 <ListItem className="flex items-center gap-2 py-2 pr-4">Fanshop</ListItem>
-            </Typography>
+            </Link>
         </List>
     );
 }
@@ -204,8 +171,13 @@ export function NavbarWithMegaMenu() {
             <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
                 <Link href="/">
                     <div className="flex">
-                        <img src="/images/sv-losaurach-wappen.png" alt="SV Losaurach e. V."
-                             className="h-12 self-center"/>&nbsp;
+                        <Image
+                            src="/images/sv-losaurach-wappen.png"
+                            alt="SV Losaurach e. V."
+                            width={48}
+                            height={48}
+                            className="h-12 w-12 self-center"
+                        />&nbsp;
                         <Typography color="blue-gray" className="ps-2 text-lg font-bold self-center">
                             SV Losaurach
                         </Typography>
@@ -215,17 +187,17 @@ export function NavbarWithMegaMenu() {
                     <NavList/>
                 </div>
                 <div className="hidden items-center gap-2 lg:flex">
-                    <a href="https://www.instagram.com/sv_losaurach_1972" target="_blank" title="Instagram Seite">
+                    <a href="https://www.instagram.com/sv_losaurach_1972" target="_blank" rel="noopener noreferrer" title="Instagram Seite">
                         <IconButton variant="text">
                             <i className="fa-brands fa-instagram text-lg"/>
                         </IconButton>
                     </a>
-                    <a href="https://www.facebook.com/SVLosaurach1972" target="_blank" title="Facebook Seite">
+                    <a href="https://www.facebook.com/SVLosaurach1972" target="_blank" rel="noopener noreferrer" title="Facebook Seite">
                         <IconButton variant="text">
                             <i className="fa-brands fa-facebook text-lg"/>
                         </IconButton>
                     </a>
-                    <a href="https://whatsapp.com/channel/0029Vb5nKoeBvvsXDaQm4G2w" target="_blank" title="WhatsApp Kanal">
+                    <a href="https://whatsapp.com/channel/0029Vb5nKoeBvvsXDaQm4G2w" target="_blank" rel="noopener noreferrer" title="WhatsApp Kanal">
                         <IconButton variant="text">
                             <i className="fa-brands fa-whatsapp text-lg"/>
                         </IconButton>
@@ -248,17 +220,17 @@ export function NavbarWithMegaMenu() {
                 <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
                     <NavList/>
                     <div className="mt-6 mb-4 flex items-center gap-2">
-                        <a href="https://www.instagram.com/sv_losaurach_1972" target="_blank" title="Instagram Seite">
+                        <a href="https://www.instagram.com/sv_losaurach_1972" target="_blank" rel="noopener noreferrer" title="Instagram Seite">
                             <IconButton variant="text">
                                 <i className="fa-brands fa-instagram text-lg"/>
                             </IconButton>
                         </a>
-                        <a href="https://www.facebook.com/SVLosaurach1972" target="_blank" title="Facebook Seite">
+                        <a href="https://www.facebook.com/SVLosaurach1972" target="_blank" rel="noopener noreferrer" title="Facebook Seite">
                             <IconButton variant="text">
                                 <i className="fa-brands fa-facebook text-lg"/>
                             </IconButton>
                         </a>
-                        <a href="https://whatsapp.com/channel/0029Vb5nKoeBvvsXDaQm4G2w" target="_blank" title="WhatsApp Kanal">
+                        <a href="https://whatsapp.com/channel/0029Vb5nKoeBvvsXDaQm4G2w" target="_blank" rel="noopener noreferrer" title="WhatsApp Kanal">
                             <IconButton variant="text">
                                 <i className="fa-brands fa-whatsapp text-lg"/>
                             </IconButton>

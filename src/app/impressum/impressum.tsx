@@ -60,7 +60,7 @@ function Impressum() {
                     <Typography variant="paragraph" className="mb-4">
                         Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
                         <a href="https://ec.europa.eu/consumers/odr" target="_blank"
-                           rel="noopener">https://ec.europa.eu/consumers/odr</a>
+                           rel="noopener noreferrer">https://ec.europa.eu/consumers/odr</a>
                         .
                         <br/>
                         Unsere E-Mail-Adresse finden Sie oben im Impressum.

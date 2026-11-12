@@ -2,6 +2,7 @@
 
 import React from "react";
 import {Typography} from "@material-tailwind/react";
+import Link from "next/link";
 
 function Datenschutz() {
     return (
@@ -30,7 +31,7 @@ function Datenschutz() {
                     </Typography>
                     <Typography variant="paragraph" className="mb-4">
                         Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten
-                        können Sie dem <a href="/impressum">Impressum</a> dieser Website entnehmen.
+                        können Sie dem <Link href="/impressum">Impressum</Link> dieser Website entnehmen.
                     </Typography>
                     <Typography variant="paragraph" className="mb-4">
                         <strong>Wie erfassen wir Ihre Daten?</strong>
@@ -313,7 +314,7 @@ function Datenschutz() {
                         Eine übersicht über
                         die Facebook-Plugins finden Sie hier:
                         <a href="https://developers.facebook.com/docs/plugins/?locale=de_DE" target="_blank"
-                           rel="noopener">https://developers.facebook.com/docs/plugins/?locale=de_DE</a>
+                           rel="noopener noreferrer">https://developers.facebook.com/docs/plugins/?locale=de_DE</a>
                         .
                     </Typography>
                     <Typography variant="paragraph" className="mb-4">
@@ -331,7 +332,7 @@ function Datenschutz() {
                         sowie deren Nutzung durch Facebook erhalten. Weitere Informationen hierzu finden Sie in der
                         Datenschutzerklärung von Facebook unter:
                         <a href="https://de-de.facebook.com/privacy/explanation" target="_blank"
-                           rel="noopener">https://de-de.facebook.com/privacy/explanation</a>
+                           rel="noopener noreferrer">https://de-de.facebook.com/privacy/explanation</a>
                         .
                     </Typography>
                     <Typography variant="paragraph" className="mb-4">Wenn Sie nicht wünschen, dass Facebook den Besuch unserer Seiten
@@ -366,7 +367,7 @@ function Datenschutz() {
                     <Typography variant="paragraph" className="mb-4">
                         Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Instagram:
                         <a href="https://instagram.com/about/legal/privacy/" target="_blank"
-                           rel="noopener">https://instagram.com/about/legal/privacy/</a>
+                           rel="noopener noreferrer">https://instagram.com/about/legal/privacy/</a>
                         .
                     </Typography>
                     <Typography variant="h2" color="blue-gray" className="mb-2">5. Plugins und Tools</Typography>
@@ -403,10 +404,10 @@ function Datenschutz() {
                         Sie
                         folgenden Links:
                         <a href="https://policies.google.com/privacy?hl=de" target="_blank"
-                           rel="noopener">https://policies.google.com/privacy?hl=de</a>
+                           rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a>
                         und
                         <a href="https://www.google.com/recaptcha/intro/android.html" target="_blank"
-                           rel="noopener">https://www.google.com/recaptcha/intro/android.html</a>
+                           rel="noopener noreferrer">https://www.google.com/recaptcha/intro/android.html</a>
                         .
                     </Typography>
                     <Typography variant="paragraph" className="mb-4">

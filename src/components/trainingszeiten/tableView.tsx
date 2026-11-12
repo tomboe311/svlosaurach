@@ -1,13 +1,7 @@
-import { Typography } from "@material-tailwind/react";
+"use client";
 
-type TrainingRow = {
-    team: string;
-    montag: string;
-    dienstag: string;
-    mittwoch: string;
-    donnerstag: string;
-    freitag: string;
-};
+import { Typography } from "@material-tailwind/react";
+import {TrainingRow} from "@/types/content";
 
 type TableViewProps = {
     rows: TrainingRow[];

@@ -5,6 +5,7 @@ import {Typography} from "@material-tailwind/react";
 import {Trainingszeiten} from "@/components/trainingszeiten/trainingszeiten";
 import {ProfileCard} from "@/components";
 import FRAUEN_DATA from "@/data/frauen.json";
+import Image from "next/image";
 
 function Frauen() {
     const TRAINER = FRAUEN_DATA.trainer;
@@ -25,10 +26,12 @@ function Frauen() {
                     Der Verein stellt zwei Teams im aktiven Ligabetrieb. Auf diese Weise wird Frauen ab 16 Jahren ein breites Spektrum an Möglichkeiten geboten, sich
                     sportlich zu engagieren und weiterzuentwickeln.
                 </Typography>
-                <img
+                <Image
                     className="min-h-full w-full rounded-lg object-cover object-center"
                     src="/teams/frauen-2025.jpeg"
                     alt="Frauenmannschaft"
+                    width={1600}
+                    height={900}
                 />
             </div>
             <div className="container mx-auto">

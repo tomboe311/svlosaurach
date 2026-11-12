@@ -1,14 +1,17 @@
 /** @type {import('next').NextConfig} */
+// Static export is only enabled for the GitHub Pages build (served from the
+// root of sv-losaurach.de, so no basePath is needed). `next dev` stays dynamic.
+const isGhPagesBuild = process.env.GH_PAGES === "1";
+
 const nextConfig = {
-  basePath: '/dist',
-  output: 'export',
-  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
-  //trailingSlash: true,
-  // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
-  //skipTrailingSlashRedirect: true,
-  // Optional: Change the output directory `out` -> `dist`
-  distDir: 'dist',
+  ...(isGhPagesBuild
+      ? {
+          output: "export",
+          trailingSlash: true,
+        }
+      : {}),
   images: {
+    ...(isGhPagesBuild ? {unoptimized: true} : {}),
     remotePatterns: [
       {
         protocol: "https",

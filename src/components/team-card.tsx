@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import Link from "next/link";
 import {
     Card,
     CardHeader,
@@ -27,22 +30,17 @@ export function TeamCard({img, title, desc, link}: TeamCardProps) {
                 />
             </CardHeader>
             <CardBody className="p-0">
-                <a
-                    href="#"
-                    className="text-blue-gray-900 transition-colors hover:text-gray-800"
-                >
-                    <Typography variant="h5" className="mb-2">
-                        {title}
-                    </Typography>
-                </a>
+                <Typography variant="h5" className="mb-2 text-blue-gray-900">
+                    {title}
+                </Typography>
                 <Typography className="mb-6 font-normal !text-gray-500">
                     {desc}
                 </Typography>
-                <a href={link}>
+                <Link href={link ?? "#"}>
                     <Button color="yellow" size="sm">
                         Mehr über
                     </Button>
-                </a>
+                </Link>
             </CardBody>
         </Card>
     );

@@ -1,5 +1,3 @@
-"use client";
-
 export * from "./navbarWithMegaMenu"
 export * from "./openingHours";
 export * from "./footer";

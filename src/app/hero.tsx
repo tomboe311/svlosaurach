@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import {Button, Typography} from "@material-tailwind/react";
+import Link from "next/link";
 
 function Hero() {
     return (
@@ -24,12 +25,11 @@ function Hero() {
                     </Typography>
                     <div className="grid">
                         <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
-                            {/* @ts-ignore */}
-                            <a href="/verein">
+                            <Link href="/verein">
                                 <Button color="yellow" className="w-full px-4 md:w-[12rem]">
                                     Erfahre mehr
                                 </Button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
